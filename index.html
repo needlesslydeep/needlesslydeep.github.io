@@ -1,20 +1,75 @@
+---
+layout: none
+title: Needlessly Deep
+---
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Needlessly Deep</title>
+  <meta charset="UTF-8">
+  <title>Needlessly Deep</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <h1>Needlessly Deep</h1>
 
-    <h2>Serious Research for Silly Questions.</h2>
+<header class="hero">
+  <img src="{{ '/assets/images/hero.png' | relative_url }}" alt="Needlessly Deep cover art">
+</header>
 
-    <hr>
+<nav class="nav">
+  <a href="#about">About</a>
+  <a href="#papers">Papers</a>
+  <a href="https://github.com/needlesslydeep">GitHub</a>
+  <a href="https://x.com/NeedlesslyDeep">X</a>
+  <a href="https://www.instagram.com/needlesslydeep/">Instagram</a>
+</nav>
 
-    <h3>Volume I · 2026</h3>
+<main class="container">
 
-    <ul>
-        <li>#001 - Do Farts Have Weight?</li>
-    </ul>
+  <section id="about" class="section">
+    <p class="eyebrow">About</p>
+
+    <h1>We take ridiculous questions seriously.</h1>
+
+    <p>
+      Needlessly Deep is an independent research project dedicated to answering
+      questions nobody asked using scientific methods, data, and an unreasonable
+      amount of curiosity.
+    </p>
+
+    <p>
+      Because sometimes, the most pointless questions lead to the deepest discoveries.
+    </p>
+  </section>
+
+  <section id="papers" class="section">
+    <p class="eyebrow">Latest Papers</p>
+
+    <div class="paper-list">
+      {% assign papers = site.papers | sort: "number" %}
+
+      {% for paper in papers %}
+      <article class="paper-item">
+        <span class="paper-number">{{ paper.number }}</span>
+
+        <div>
+          <h2>{{ paper.title }}</h2>
+          <p>{{ paper.fields }} · {{ paper.status }}</p>
+        </div>
+
+        <a href="{{ paper.url | relative_url }}">Read →</a>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Needlessly Deep logo">
+  <p>Researching the unnecessary since 2026.</p>
+</footer>
 
 </body>
 </html>
