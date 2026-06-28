@@ -332,3 +332,16 @@ p {
     text-align: right;
     font-variant-numeric: tabular-nums;
 }
+
+/* Mathematical equations */
+
+.paper-content mjx-container[jax="CHTML"][display="true"] {
+    display: block;
+    text-align: left;
+    margin: 1.4rem 0 1.6rem 2rem;
+    font-size: 1.25em;
+}
+
+.paper-content mjx-container {
+    color: var(--text);
+}

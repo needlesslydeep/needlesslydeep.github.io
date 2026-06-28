@@ -222,33 +222,33 @@ This seemingly minor difference becomes important later when discussing buoyancy
 
 Having established the average molar mass, we can estimate the amount of matter contained within a given volume of intestinal gas.
 
-The Ideal Gas Law states
+The mass can be estimated from the Ideal Gas Law:
 
-\[
+$$
 PV=nRT
-\]
+$$
 
 where
 
-- \(P\) is pressure,
-- \(V\) is volume,
-- \(n\) is the number of moles,
-- \(R\) is the universal gas constant,
-- \(T\) is absolute temperature.
+- $P$ is the pressure,
+- $V$ is the gas volume,
+- $n$ is the number of moles,
+- $R$ is the universal gas constant, and
+- $T$ is the absolute temperature.
 
-Rearranging,
+Solving for the number of moles,
 
-\[
+$$
 n=\frac{PV}{RT}
-\]
+$$
 
-The mass is then obtained through
+Since mass is given by
 
-\[
+$$
 m=nM
-\]
+$$
 
-where \(M\) represents the average molar mass of the gas mixture.
+where $M$ denotes the average molar mass of the gas mixture.
 
 Assuming
 
