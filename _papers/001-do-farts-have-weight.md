@@ -5,9 +5,9 @@ title: "Do Farts Have Weight?"
 fields: "Biology · Chemistry · Physics"
 published: 2026-07-01
 status: Published
+description: "An unnecessarily deep investigation into one of humanity’s oldest biological processes."
 ---
 
-# Do Farts Have Weight?
 
 > *An unnecessarily deep investigation into one of humanity's oldest biological processes.*
 
@@ -89,14 +89,47 @@ Although flatulence is often described simply as "gas," human flatus is actually
 
 The principal components reported in the medical literature are shown below.
 
-| Gas | Typical Range (% by volume) | Primary Source |
-|------------------|----------------:|-----------------------------------------------|
-| Nitrogen (N₂) | 20–90 | Swallowed air |
-| Hydrogen (H₂) | 0–50 | Bacterial fermentation |
-| Carbon dioxide (CO₂) | 10–30 | Fermentation and acid-base reactions |
-| Methane (CH₄) | 0–10 | Methanogenic archaea |
-| Oxygen (O₂) | 0–10 | Swallowed air |
-| Water vapor (H₂O) | Saturated | Body temperature |
+<table class="paper-table">
+  <thead>
+    <tr>
+      <th>Gas</th>
+      <th>Typical Range</th>
+      <th>Primary Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nitrogen (N₂)</td>
+      <td>20–90%</td>
+      <td>Swallowed air</td>
+    </tr>
+    <tr>
+      <td>Hydrogen (H₂)</td>
+      <td>0–50%</td>
+      <td>Bacterial fermentation</td>
+    </tr>
+    <tr>
+      <td>Carbon dioxide (CO₂)</td>
+      <td>10–30%</td>
+      <td>Fermentation and acid-base reactions</td>
+    </tr>
+    <tr>
+      <td>Methane (CH₄)</td>
+      <td>0–10%</td>
+      <td>Methanogenic archaea</td>
+    </tr>
+    <tr>
+      <td>Oxygen (O₂)</td>
+      <td>0–10%</td>
+      <td>Swallowed air</td>
+    </tr>
+    <tr>
+      <td>Water vapor (H₂O)</td>
+      <td>Variable</td>
+      <td>Saturated at body temperature</td>
+    </tr>
+  </tbody>
+</table>
 
 Several observations immediately become apparent.
 
@@ -142,18 +175,43 @@ Each component contributes to the overall molecular weight according to its rela
 
 The molecular masses of the principal gases are well established.
 
-| Gas | Molecular Mass (g/mol) |
-|------|-----------------------:|
-| Nitrogen (N₂) | 28.014 |
-| Hydrogen (H₂) | 2.016 |
-| Carbon dioxide (CO₂) | 44.009 |
-| Methane (CH₄) | 16.043 |
-| Oxygen (O₂) | 31.998 |
-| Water vapor (H₂O) | 18.015 |
+<table class="paper-table">
+    <thead>
+        <tr>
+            <th>Gas</th>
+            <th class="numeric">Molecular Mass (g/mol)</th>
+        </tr>
+    </thead>
 
-Using the average volumetric composition derived from the literature, the weighted mean molar mass is approximately
+    <tbody>
+        <tr>
+            <td>Nitrogen (N₂)</td>
+            <td class="numeric">28.014</td>
+        </tr>
+        <tr>
+            <td>Hydrogen (H₂)</td>
+            <td class="numeric">2.016</td>
+        </tr>
+        <tr>
+            <td>Carbon dioxide (CO₂)</td>
+            <td class="numeric">44.009</td>
+        </tr>
+        <tr>
+            <td>Methane (CH₄)</td>
+            <td class="numeric">16.043</td>
+        </tr>
+        <tr>
+            <td>Oxygen (O₂)</td>
+            <td class="numeric">31.998</td>
+        </tr>
+        <tr>
+            <td>Water vapor (H₂O)</td>
+            <td class="numeric">18.015</td>
+        </tr>
+    </tbody>
+</table>
 
-**26 g/mol.**
+Using the average volumetric composition derived from the literature, the weighted mean molar mass is approximately **26 g/mol.**
 
 This value is slightly lower than the molar mass of atmospheric air (28.97 g/mol), primarily because hydrogen has an exceptionally low molecular weight.
 
@@ -201,14 +259,23 @@ Assuming
 
 the estimated masses become:
 
-| Gas Volume | Estimated Mass |
-|------------:|---------------:|
-| 20 mL | 0.021 g |
-| 50 mL | 0.052 g |
-| 100 mL | 0.104 g |
-| 250 mL | 0.260 g |
-| 500 mL | 0.520 g |
-| 1000 mL | 1.040 g |
+<table class="paper-table paper-table-small">
+    <thead>
+        <tr>
+            <th>Gas Volume</th>
+            <th class="numeric">Estimated Mass</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr><td>20 mL</td><td class="numeric">0.021 g</td></tr>
+        <tr><td>50 mL</td><td class="numeric">0.052 g</td></tr>
+        <tr><td>100 mL</td><td class="numeric">0.104 g</td></tr>
+        <tr><td>250 mL</td><td class="numeric">0.260 g</td></tr>
+        <tr><td>500 mL</td><td class="numeric">0.520 g</td></tr>
+        <tr><td>1000 mL</td><td class="numeric">1.040 g</td></tr>
+    </tbody>
+</table>
 
 These values scale almost perfectly linearly because, under ordinary physiological conditions, the density of the gas mixture remains approximately constant.
 
@@ -374,24 +441,40 @@ That, perhaps, is what makes the question worth asking.
 
 Assumptions adopted throughout this paper:
 
-| Parameter | Value |
-|-----------|-------|
-| Temperature | 37 °C (310.15 K) |
-| Pressure | 101,325 Pa |
-| Average molar mass | 26 g/mol |
-| Gas model | Ideal Gas |
-| Water vapor | Saturated |
+<table class="paper-table paper-table-small">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Temperature</td><td>37 °C (310.15 K)</td></tr>
+    <tr><td>Pressure</td><td>101,325 Pa</td></tr>
+    <tr><td>Average molar mass</td><td>26 g/mol</td></tr>
+    <tr><td>Gas model</td><td>Ideal gas</td></tr>
+    <tr><td>Water vapor</td><td>Saturated</td></tr>
+  </tbody>
+</table>
 
-Estimated masses:
+<p><strong>Estimated masses:</strong></p>
 
-| Volume | Mass |
-|--------:|-----:|
-| 20 mL | 0.021 g |
-| 50 mL | 0.052 g |
-| 100 mL | 0.104 g |
-| 250 mL | 0.260 g |
-| 500 mL | 0.520 g |
-| 1000 mL | 1.040 g |
+<table class="paper-table paper-table-small">
+  <thead>
+    <tr>
+      <th>Volume</th>
+      <th class="numeric">Mass</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>20 mL</td><td class="numeric">0.021 g</td></tr>
+    <tr><td>50 mL</td><td class="numeric">0.052 g</td></tr>
+    <tr><td>100 mL</td><td class="numeric">0.104 g</td></tr>
+    <tr><td>250 mL</td><td class="numeric">0.260 g</td></tr>
+    <tr><td>500 mL</td><td class="numeric">0.520 g</td></tr>
+    <tr><td>1000 mL</td><td class="numeric">1.040 g</td></tr>
+  </tbody>
+</table>
 
 ---
 
