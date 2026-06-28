@@ -15,7 +15,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .hero {
@@ -34,7 +34,7 @@ body {
   gap: 42px;
   padding: 24px;
   border-bottom: 1px solid var(--line);
-  font-family: Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -43,7 +43,7 @@ body {
 .nav a {
   color: var(--accent);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .container {
@@ -59,18 +59,25 @@ body {
 
 .eyebrow {
   color: var(--accent);
-  font-family: Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+.paper-number {
+  font-family: "Libre Baskerville", Georgia, serif;
 }
 
 h1 {
   max-width: 720px;
   font-size: clamp(42px, 6vw, 66px);
   line-height: 1.05;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 p {
@@ -83,10 +90,8 @@ p {
 .paper-item {
   display: grid;
   grid-template-columns: 90px 1fr auto;
-  gap: 28px;
+  gap: 24px;
   align-items: center;
-  padding: 28px 0;
-  border-top: 1px solid var(--line);
 }
 
 .paper-number {
@@ -98,7 +103,7 @@ p {
 .paper-item h2 {
   margin: 0 0 8px;
   font-size: 34px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .paper-item p {
@@ -108,9 +113,9 @@ p {
 
 .paper-item a {
   color: var(--accent);
-  font-family: Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   text-decoration: none;
@@ -128,4 +133,54 @@ p {
 
 .footer p {
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 18px;
+  }
+
+  .container {
+    padding: 36px 20px;
+  }
+
+  .section {
+    padding: 28px 0 48px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .paper-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .paper-number {
+    font-size: 24px;
+  }
+
+  .paper-item h2 {
+    font-size: 26px;
+  }
+
+  .paper-item a {
+    margin-top: 8px;
+  }
+
+  .footer {
+    padding: 32px 20px;
+    text-align: center;
+  }
+
+  .footer img {
+    width: 96px;
+  }
 }
