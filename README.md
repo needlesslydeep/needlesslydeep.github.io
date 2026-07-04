@@ -7,6 +7,7 @@ Needlessly Deep is an independent research project dedicated to answering absurd
 ## Papers
 
 - #001 — Do Farts Have Weight?
+- #002 - How Heavy Is the Internet?
 
 ## Links
 
