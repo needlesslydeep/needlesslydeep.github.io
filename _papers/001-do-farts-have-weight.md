@@ -414,39 +414,33 @@ That, perhaps, is what makes the question worth asking.
 
 # References
 
-1. Levitt MD. *Volume and Composition of Human Intestinal Gas Determined by Means of an Intestinal Washout Technic.* New England Journal of Medicine. 1971;284(25):1394–1398.
-   DOI: https://doi.org/10.1056/NEJM197106242842502
-   PubMed: https://pubmed.ncbi.nlm.nih.gov/5578321/
+1. Levitt MD. *Volume and Composition of Human Intestinal Gas Determined by Means of an Intestinal Washout Technic.* New England Journal of Medicine. 1971;284(25):1394–1398.  
+   DOI: [doi.org/10.1056/NEJM197106242842502](https://doi.org/10.1056/NEJM197106242842502)  
+   PubMed: [pubmed.ncbi.nlm.nih.gov/5578321](https://pubmed.ncbi.nlm.nih.gov/5578321/)   
 
-2. Levitt MD, Bond JH. *Volume, Composition, and Source of Intestinal Gas.* Gastroenterology. 1970;59(6):921–929.
-   DOI: https://doi.org/10.1016/S0016-5085(19)33654-6
-   PubMed: https://pubmed.ncbi.nlm.nih.gov/5486278/
+2. Levitt MD, Bond JH. *Volume, Composition, and Source of Intestinal Gas.* Gastroenterology. 1970;59(6):921–929.  
+   DOI: [doi.org/10.1016/S0016-5085(19)33654-6](https://doi.org/10.1016/S0016-5085(19)33654-6)  
+   PubMed: [pubmed.ncbi.nlm.nih.gov/5486278](https://pubmed.ncbi.nlm.nih.gov/5486278/)  
 
-3. Suarez FL, Springfield J, Levitt MD. *Identification of Gases Responsible for the Odour of Human Flatus and Evaluation of a Device Purported to Reduce This Odour.* Gut. 1998;43:100–104.
-   DOI: https://doi.org/10.1136/gut.43.1.100
-   PubMed: https://pubmed.ncbi.nlm.nih.gov/9771412/
-   PMC (full text): https://pmc.ncbi.nlm.nih.gov/articles/PMC1727181/
+3. Suarez FL, Springfield J, Levitt MD. *Identification of Gases Responsible for the Odour of Human Flatus and Evaluation of a Device Purported to Reduce This Odour.* Gut. 1998;43:100–104.  
+   DOI: [doi.org/10.1136/gut.43.1.100](https://doi.org/10.1136/gut.43.1.100)  
+   PubMed: [pubmed.ncbi.nlm.nih.gov/9771412](https://pubmed.ncbi.nlm.nih.gov/9771412/)  
+   PMC (full text): [pmc.ncbi.nlm.nih.gov/articles/PMC1727181](https://pmc.ncbi.nlm.nih.gov/articles/PMC1727181/)  
 
 4. Miller TL, Wolin MJ. *Methanogens in Human and Animal Intestinal Tracts.*
    (Referenced through reviews and microbiology literature. If cited directly, use the specific edition/article employed in the investigation.)
 
-5. Tangerman A. *Biological and Clinical Aspects of Volatile Sulfur Compounds.*
-   https://pubmed.ncbi.nlm.nih.gov/?term=Tangerman+volatile+sulfur+compounds
+5. Tangerman A. *Biological and Clinical Aspects of Volatile Sulfur Compounds.* [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/?term=Tangerman+volatile+sulfur+compounds)
 
-6. NIST Chemistry WebBook
-   https://webbook.nist.gov/chemistry/
+6. NIST Chemistry WebBook. [webbook.nist.gov](https://webbook.nist.gov/chemistry/)
 
-7. CODATA Recommended Values of the Fundamental Physical Constants
-   https://physics.nist.gov/cuu/Constants/
+7. CODATA Recommended Values of the Fundamental Physical Constants. [physics.nist.gov](https://physics.nist.gov/cuu/Constants/)
 
-8. Atkins P., de Paula J. *Physical Chemistry.*
-   https://global.oup.com/academic/product/physical-chemistry-9780198868118
+8. Atkins P., de Paula J. *Physical Chemistry.* [global.oup.com](https://global.oup.com/academic/product/physical-chemistry-9780198868118)
 
-9. Hall JE. *Guyton and Hall Textbook of Medical Physiology.*
-   https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall
+9. Hall JE. *Guyton and Hall Textbook of Medical Physiology.* [elsevier.com](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall)
 
-10. Lide DR. *CRC Handbook of Chemistry and Physics.*
-    https://hbcp.chemnetbase.com/
+10. Lide DR. *CRC Handbook of Chemistry and Physics.* [hbcp.chemnetbase.com](https://hbcp.chemnetbase.com/)
 
 ---
 
