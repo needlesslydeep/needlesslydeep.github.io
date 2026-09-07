@@ -4,6 +4,10 @@ layout: default
 
 <article class="paper-page">
 
+    <nav class="paper-navigation paper-navigation--top" aria-label="Paper navigation">
+        <a href="{{ '/' | relative_url }}">← Back to homepage</a>
+    </nav>
+
     <header class="paper-header">
 
         <p class="paper-number">
@@ -27,5 +31,9 @@ layout: default
         {{ content }}
 
     </div>
+
+    <nav class="paper-navigation paper-navigation--bottom" aria-label="Paper navigation">
+        <a href="{{ '/' | relative_url }}">← Back to homepage</a>
+    </nav>
 
 </article>
