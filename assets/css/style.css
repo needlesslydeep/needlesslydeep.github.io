@@ -270,6 +270,36 @@ p {
   border-top: 1px solid var(--line);
 }
 
+.paper-navigation {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.paper-navigation--top {
+  margin-bottom: 2.5rem;
+}
+
+.paper-navigation--bottom {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.paper-navigation a {
+  color: var(--accent);
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.paper-navigation a:hover,
+.paper-navigation a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
 @media (max-width: 768px) {
   .paper-page {
     padding: 44px 20px;

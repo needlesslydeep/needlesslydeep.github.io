@@ -50,6 +50,7 @@ title: Needlessly Deep
       {% assign papers = site.papers | sort: "number" %}
 
       {% for paper in papers %}
+      {% if jekyll.environment != "production" or paper.status == "Published" %}
       <article class="paper-item">
         <span class="paper-number">{{ paper.number }}</span>
 
@@ -60,6 +61,7 @@ title: Needlessly Deep
 
         <a href="{{ paper.url | relative_url }}">Read →</a>
       </article>
+      {% endif %}
       {% endfor %}
     </div>
   </section>
