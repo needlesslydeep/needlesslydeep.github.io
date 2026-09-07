@@ -4,7 +4,7 @@ number: "004"
 title: "Would Batman Survive a Sprint as a Senior Software Developer at a Mid-Sized Company — Without AI?"
 fields: "Software Engineering · Organizational Psychology · Vigilantism"
 published: 2026-09-06
-status: Draft
+status: Published
 description: "A structured assessment of whether Batman's technical brilliance could overcome sleep debt, secrecy, and Scrum."
 ---
 
